@@ -6,9 +6,60 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="discription" content="Implemented Design for Klark.io work">
     <meta name="author" content="pacifiquem@github.com">
+    <script src="scripts/main.js" type="text/javascript" defer></script>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="/styles/styles.css" type="text/css">
     <title>Zuntia - Activity</title>
 </head>
 <body>
-    
+    <div class="container">
+
+        <!-- Web's header -->
+        <div class="container-header">
+            <div class="header-left">
+                <h2 class="h2">PREVIEW</h2>
+                <div class="badge badge-success">
+                    <h3>Aprooved</h3>
+                </div>
+            </div>
+            <div class="header-right">
+                <h2 class="h2">ACTIVITIES</h2>
+            </div>
+        </div>
+        <!--end of web's header -->
+
+        <!-- Web's Body -->
+        <div class="container-body">
+            <div class="body-left">
+                <div class="card">
+                    <img src="/assets/images/main-image-1.png" alt="anonymas" width="100%">
+                    <p class="p">
+                        <span  id="image-discription1">
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae sapiente maiores alias vero, voluptas laboriosam provident. Vero culpa doloremque aspernatur eaqueatur, <a id="image-discrition-toogle-1" onclick="seeMore('image-discription2', 'image-discrition-toogle-1', 'image-discrition-toogle-2')">See More</a>
+                            <span class="next-text" id="image-discription2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae sapiente maiores alias vero, voluptas laboriosam provident. Vero culpa doloremque aspernatur eaque rerum ipsum, temporibus nostrum ex cupiditate pariatur eum harum. <a id="image-discrition-toogle-2" onclick="seeLess('image-discription2', 'image-discrition-toogle-2', 'image-discrition-toogle-1')">See Less</a></span>
+                        </span>
+                    </p>
+                </div>
+            </div>
+            <div class="body-right">
+                
+            </div>
+        </div>
+        <!-- end of web's Body-->
+
+        <!-- Web's footer -->
+            <div class="container-footer">
+                <div class="footer-left">
+                    <h2 class="h2">PREVIEW</h2>
+                    <div class="badge badge-success">
+                        <h3>Aprooved</h3>
+                    </div>
+                </div>
+                <div class="footer-right">
+                    <h2 class="h2">ACTIVITIES</h2>
+                </div>
+            </div>
+        <!--end of web's footer -->
+    </div>
 </body>
 </html>
